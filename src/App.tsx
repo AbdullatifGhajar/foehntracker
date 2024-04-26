@@ -2,30 +2,18 @@ import './App.css'
 
 import { ChakraProvider } from '@chakra-ui/react';
 import VoucherList from './components/VoucherList';
-import Voucher from './models/Voucher';
-import { useEffect, useState } from 'react';
+
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 
 function App() {
-  const [vouchers, setVouchers] = useState<Voucher[]>([]);
-
-  useEffect(() => {
-    const fetchVouchers = async () => {
-      try {
-        const response = await fetch('vouchers.json');
-        const data = await response.json();
-        setVouchers(data);
-      } catch (error) {
-        console.error('Error fetching vouchers:', error);
-      }
-    };
-
-    fetchVouchers();
-  }, []);
-
   return (
-    <ChakraProvider>
-      <VoucherList vouchers={vouchers} />
-    </ChakraProvider>
+      <ChakraProvider>
+    <Router basename="/fohntracker">
+      <Routes>
+        <Route path="/" element={<VoucherList />} />
+      </Routes>
+    </Router>
+      </ChakraProvider>
   );
 }
 
