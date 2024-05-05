@@ -3,6 +3,7 @@
         "title": "Geburtstag 2023",
         "description": "Als Belohnung für das Gewinnen der Schnitzeljagd",
         "value": 90,
+        "usedValue": 30,
         "expirationDate": "2024-12-31"
     },
     {
