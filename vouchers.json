@@ -8,14 +8,14 @@
     {
         "title": "Weihnachten 2023",
         "description": "Als Belohnung für das Lösen des QR-Code-Rätsels",
-        "imageUrl": "/fohntracker/images/wn2023.png",
+        "imageUrl": "images/wn2023.png",
         "value": 30,
         "expirationDate": "2024-12-31"
     },
     {
         "title": "Silvester 2023/2024",
         "description": "Der Weihnachtsmann hat dir eine Zugabe gegeben",
-        "imageUrl": "/fohntracker/images/sv2024.png",
+        "imageUrl": "images/sv2024.png",
         "value": 30,
         "expirationDate": "2024-12-31"
     },
@@ -23,7 +23,7 @@
         "title": "Geburtstag 2024",
         "description": "Als erster Föhngutschein für auf dieser Plattform",
         "value": 30,
-        "imageUrl": "/fohntracker/images/gt2024.jpeg",
+        "imageUrl": "images/gt2024.jpeg",
         "expirationDate": "2024-12-31",
         "isNew": true
     }
