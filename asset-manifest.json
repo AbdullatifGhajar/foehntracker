@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/foehntracker/static/css/main.338a24fe.css",
-    "main.js": "/foehntracker/static/js/main.13e62fde.js",
+    "main.js": "/foehntracker/static/js/main.dbb77f73.js",
     "index.html": "/foehntracker/index.html",
     "main.338a24fe.css.map": "/foehntracker/static/css/main.338a24fe.css.map",
-    "main.13e62fde.js.map": "/foehntracker/static/js/main.13e62fde.js.map"
+    "main.dbb77f73.js.map": "/foehntracker/static/js/main.dbb77f73.js.map"
   },
   "entrypoints": [
     "static/css/main.338a24fe.css",
-    "static/js/main.13e62fde.js"
+    "static/js/main.dbb77f73.js"
   ]
 }
