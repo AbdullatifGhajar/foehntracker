@@ -7,13 +7,13 @@ import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 
 function App() {
   return (
-      <ChakraProvider>
-    <Router basename="/fohntracker">
-      <Routes>
-        <Route path="/" element={<VoucherList />} />
-      </Routes>
-    </Router>
-      </ChakraProvider>
+    <ChakraProvider>
+      <Router basename="/foehntracker">
+        <Routes>
+          <Route path="/" element={<VoucherList />} />
+        </Routes>
+      </Router>
+    </ChakraProvider>
   );
 }
 
