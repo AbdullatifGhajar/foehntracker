@@ -3,7 +3,7 @@
         "title": "Geburtstag 2023",
         "description": "Als Belohnung für das Gewinnen der Schnitzeljagd",
         "value": 90,
-        "usedValue": 60,
+        "usedValue": 90,
         "expirationDate": "2024-12-31"
     },
     {
@@ -11,6 +11,7 @@
         "description": "Als Belohnung für das Lösen des QR-Code-Rätsels",
         "imageUrl": "images/wn2023.png",
         "value": 30,
+        "usedValue": 30,
         "expirationDate": "2024-12-31"
     },
     {
